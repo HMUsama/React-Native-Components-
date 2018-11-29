@@ -9,6 +9,7 @@ import Quiz from './Quiz';
 // import MyNavigator from './MyNavigator';
 
 const App = createStackNavigator({
+  Quiz:{screen:Quiz},
   StartPage: { screen: StartPage },
   Questions: { screen: Questions },
   Finish: { screen: Finish }
